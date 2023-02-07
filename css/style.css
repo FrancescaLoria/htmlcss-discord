@@ -1,0 +1,197 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+
+}
+
+header{
+    color: white;
+}
+
+header a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    /* debag */
+    /* height: 100%;
+    border: 1px black dashed; */
+}
+
+/* HEADER TOP */
+.header-top{
+    padding: 20px 0;
+    /* debug */
+    height: 80px;
+    background-color: #255EE9;
+}
+
+.header-top > .container{
+    /* debug */
+    /* height: 40px;
+    background-color: #DAA520;
+    border: 2px dashed black; */
+    /* /debug */
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0 7px;
+    width: 85%;
+}
+
+.header-menu{
+    /* debug */
+    /* border-left: 2px dashed black;
+    border-right: 2px dashed black;
+    width: 60%; */
+    /* /debug */
+    justify-content: center;
+}
+
+.header-menu ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+   
+}
+
+.header-menu li{
+    margin: 0 10px;
+}
+
+.login > a{
+    background-color: white;
+    padding: 7px 15px;
+    color: black;
+    border-radius: 25px;
+    font-size: 12px
+
+}
+
+.vertical-align{
+    display: flex;
+    align-items: center;
+}
+/* /HEADER TOP */
+
+/* HEADER BOTTOM */
+.header-bottom{
+    height: 300px;
+    background-color: blue;
+    padding: 20px;
+}
+
+.header-bottom > .container{
+    width: 60%;
+    background-color: pink;
+}
+/* /HEADER BOTTOM */
+
+/* MAIN section*/
+.section{
+    height: 300px;
+    background-color: beige;
+    padding: 20px 0;
+    
+}
+
+.section > .container{
+    display: flex;
+}
+
+.blue{
+    background-color: #1E90FF;
+    height: 100%;
+    width: 60%;
+    border-right: 1px dashed black;
+    border-left: 1px dashed black;
+}
+
+.pink{
+    background-color:#FFC0CB ;
+    height: 100%;
+    width: 40%;
+}
+
+.section.grey{
+    background-color:#D3D3D3;
+}
+
+.section.grey > .container{
+    flex-direction: row-reverse;
+
+}
+/* /MAIN section */
+
+/* BOTTOM MAIN */
+.main-bottom{
+    height: 500px;
+    background-color:#D3D3D3;
+    padding: 20px 0;
+
+}
+
+.main-bottom > .container{
+    background-color: #228B22;
+    
+}
+/* /BOTTOM MAIN */
+
+/* FOOTER TOP */
+.footer-top{
+    height: 300px;
+    background-color: #23272A;
+    padding: 10px 0 20px;
+    
+}
+
+.footer-top > .container{
+    display: flex;
+}
+
+.list{
+    height: 100%;
+    background-color: #1E90FF;
+    border: 1px solid black;
+    flex-grow: 1;
+    border: 1px dashed white;
+}
+
+.list:first-child{
+    flex-grow: 2;
+    background-color:pink ;
+    border: 1px dashed black;
+}
+/* /FOOTER TOP */
+
+/* FOOTER BOTTOM */
+.footer-bottom{
+    background-color: #23272A;
+    border-top: 1px solid white;
+}
+
+.footer-bottom > .container{
+    background-color: lightblue;
+    border: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.button{
+    background-color: #FFB6C1;
+    border: 1px dashed black;
+    padding: 5px 10px;
+    
+}
