@@ -24,8 +24,8 @@ header a{
     width: 70%;
     margin: 0 auto;
     /* debag */
-    /* height: 100%;
-    border: 1px black dashed; */
+    height: 100%;
+    border: 1px black dashed;
 }
 
 /* HEADER TOP */
@@ -35,6 +35,9 @@ header a{
     height: 80px;
     background-color: #255EE9;
 }
+
+
+
 
 .header-top > .container{
     /* debug */
@@ -69,7 +72,7 @@ header a{
     margin: 0 10px;
 }
 
-.login > a{
+.button{
     background-color: white;
     padding: 7px 15px;
     color: black;
@@ -86,14 +89,36 @@ header a{
 
 /* HEADER BOTTOM */
 .header-bottom{
-    height: 300px;
-    background-color: blue;
+    height: 330px;
+    background-image: url("../img/jumbo.png");
     padding: 20px;
+    background-size: contain;
+    background-repeat: round;
+    text-align: center;
 }
+
+
 
 .header-bottom > .container{
     width: 60%;
-    background-color: pink;
+    padding: 40px;
+    /* background-color: pink; */
+}
+
+.header-bottom p{
+    margin: 30px 0;
+
+}
+
+.header-bottom .button{
+    padding: 10px 15px;
+
+}
+
+.black{
+    background-color: #23272A;
+    color: white;
+    margin-left: 10px;
 }
 /* /HEADER BOTTOM */
 
@@ -189,7 +214,7 @@ header a{
     padding: 15px 0;
 }
 
-.button{
+.button-footer{
     background-color: #FFB6C1;
     border: 1px dashed black;
     padding: 5px 10px;
